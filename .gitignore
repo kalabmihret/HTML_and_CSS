@@ -1,0 +1,7 @@
+# Exclude course folder
+html-css-course-master/
+
+# Exclude VS Code / Text Editor settings
+.vscode/
+.cursor/
+*.sublime-workspace
