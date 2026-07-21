@@ -43,6 +43,8 @@ aside {
 
 nav {
   font-size: 18px;
+  text-align: center;
+  /* border: solid; */
 }
 
 article {
@@ -202,3 +204,12 @@ h2::after {
   top: -15px;
   right: -25px;
 }
+
+/* to find any bug you have to see the bug whare it start and you 
+are gone go to the problem step by step and solve it
+and using the html validater ot cheack the mistak on the html 
+to cheack two codes you can use the diffchecker
+and you can use the devtools   */
+
+/* to find in formation you can use ai and other wabsite and other things you don't have to 
+know about the all thing  */
