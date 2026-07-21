@@ -31,6 +31,8 @@ body {
 .more-info:link,
 :visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 .more-info:hover :active {
   color: black;
@@ -74,7 +76,46 @@ body {
 .list li {
   margin-bottom: 10px;
 }
+h2 {
+  position: relative;
+}
+h2::before {
+  content: "sale";
+  letter-spacing: 1px;
+  font-size: 15px;
+  background-color: #ec2f2f;
+  color: #f7f7f7;
+  padding: 5px 20px;
+  /* display: inline-block;
+  text-align: center; */
+  position: absolute;
+  left: -45px;
+  top: -20px;
+}
 
-h1::after {
-  contain: "sale";
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.b {
+  background-color: blue;
+}
+
+.r {
+  background-color: red;
+}
+
+.y {
+  background-color: yellow;
+}
+
+.g {
+  background-color: green;
+}
+
+.br {
+  background-color: brown;
 }
