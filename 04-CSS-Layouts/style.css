@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 .container {
   width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -30,8 +32,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 nav {
@@ -179,4 +180,50 @@ h2::after {
   position: absolute;
   top: -15px;
   right: -25px;
+}
+
+/* floats */
+
+.author-imag {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /* padding-left: 60px; */
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+/* .clear {
+  clear: both;
+} */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+article {
+  width: 820px;
+  float: left;
+}
+
+aside {
+  width: 380px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
