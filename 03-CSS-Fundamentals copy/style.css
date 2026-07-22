@@ -40,7 +40,6 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
-
 nav {
   font-size: 18px;
   text-align: center;
@@ -188,9 +187,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
-  /* color: orangered; */
-}
+/* h3 + p::first-line {
+  color: orangered;
+} */
 
 h2::after {
   content: "TOP";
