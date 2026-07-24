@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+name='kalab'
+echo "hello $name, this was good mathod to use the terminal properly"
